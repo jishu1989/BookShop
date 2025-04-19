@@ -72,3 +72,7 @@ Use slicers for:
 ---
 
 #### 10. **Group by product type**
+
+---
+
+#### 11. **Sentiment Analysis on book description**
