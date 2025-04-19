@@ -66,11 +66,9 @@ Use slicers for:
 
 ---
 
-### 🛠️ **Steps to Import into Power BI**
-1. Open Power BI Desktop
-2. Click **Get Data** > Choose **CSV**
-3. Load your `books_first_10_pages.csv`
-4. Clean column types (e.g. convert price to number)
-5. Start building visuals using drag & drop!
+### 🛠️ **Compare prices across categories**
+
 
 ---
+
+### 🛠️ **Group by product type**
