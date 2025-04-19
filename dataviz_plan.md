@@ -76,3 +76,4 @@ Use slicers for:
 ---
 
 #### 11. **Sentiment Analysis on book description**
+ Sentiment analysis on book descriptions is a great way to add emotional context to your data. You can find out which books "sound" positive, negative, or neutral based on their descriptions — then use that in Power BI or further filtering
