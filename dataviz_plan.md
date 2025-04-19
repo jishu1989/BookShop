@@ -66,9 +66,9 @@ Use slicers for:
 
 ---
 
-### 🛠️ **Compare prices across categories**
+### 9. **Compare prices across categories**
 
 
 ---
 
-### 🛠️ **Group by product type**
+### 10. **Group by product type**
