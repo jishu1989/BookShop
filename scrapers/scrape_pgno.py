@@ -32,7 +32,7 @@ def get_book_details(url):
         'Description': description
     }
 
-# Loop through first 10 pages
+# Loop through first 5 pages
 for page in range(1, 5):
     print(f"📄 Scraping page {page}...")
     url = f"{BASE_URL}page-{page}.html"
@@ -58,9 +58,9 @@ for page in range(1, 5):
             **details
         })
 
-        time.sleep(0.2)  # gentle delay
+        time.sleep(0.2) #delay
 
 # Save to CSV
 df = pd.DataFrame(all_books)
 df.to_csv('C:/Users/Soumya Das/Documents/projects/git projects/Finnish-Retails/data/booklistings_5.csv', index=False)
-print("✅ Done! Saved to 'books_first_10_pages.csv'")
+

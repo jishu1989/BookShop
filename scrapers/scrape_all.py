@@ -72,7 +72,7 @@ while True:
         try:
             detailed_book = get_book_details(book)
             all_books.append(detailed_book)
-            time.sleep(0.5)  # Be polite
+            time.sleep(0.5)  #delay 
         except Exception as e:
             print(f"Failed to scrape book: {book['title']}, error: {e}")
     
@@ -81,4 +81,4 @@ while True:
 # Save to CSV
 df = pd.DataFrame(all_books)
 df.to_csv('all_books_details.csv', index=False)
-print("✅ Done! Saved all book data to all_books_details.csv")
+
