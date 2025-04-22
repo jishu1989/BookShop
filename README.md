@@ -16,3 +16,5 @@ in the bookstore. Some sentiment analysis based on the description available on 
 
 
 #### Dashboard
+**Category Overview**
+<img width="569" alt="image" src="https://github.com/user-attachments/assets/fd2258ab-6db6-47bf-965d-d7dce2b5fe2a" />
