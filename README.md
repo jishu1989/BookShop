@@ -14,11 +14,22 @@ in the bookstore. Some sentiment analysis based on the description available on 
 
 #### Scraping
 
+Scraped the bookstore: https://books.toscrape.com/ . It has wide range of genres. f.e : historical, classics, fiction,.. 
+Also detailed scraping included parameters like: UPC,Product Type,Price (excl. tax),Price (incl. tax),Tax, Availability
+and Number of reviews.
+
+Some of the libraries(like beautifulsoup,requests,pandas and time) used were downloaded in python virtual environment.
+
+Couple of scraper scripts are created: one scrapes based on number of page input to be scraped. The other scrapes all the pages.
+Using append function we append all the information and create a dataset using pandas dataframe.
 
 
 #### Dashboard
 **Category Overview**
 
+Here we get an insight of what kind of books we have, and the number of books in each genre and a corresponding visualization
+which helps to understand which genre of books are mostly available in the bookstore, and a corresponding visualization for 
+understanding prices per genre of the book.
 
 <img width="569" alt="image" src="https://github.com/user-attachments/assets/fd2258ab-6db6-47bf-965d-d7dce2b5fe2a" />
 
